@@ -1,0 +1,26 @@
+table {
+    border: 1px solid black;
+    font-family: "tahoma", "arial", "helvetica", "sans-serif";
+}
+
+table tr td {
+    border: 1px solid black;
+}
+
+#image {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#inner {
+    font-size: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text {
+    padding-left: 10px;
+    padding-right: 10px;
+}

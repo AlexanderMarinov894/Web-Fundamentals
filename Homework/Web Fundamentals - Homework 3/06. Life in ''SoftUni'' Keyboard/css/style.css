@@ -1,0 +1,69 @@
+table {
+    border: 1px solid #808080;
+}
+
+table tr td {
+    border:  1px solid #808080;
+}
+
+table tr td table {
+    border: none;
+}
+
+table tr td table tr td {
+    border: none;
+}
+
+.buttons {
+    width: 100%;
+    color: blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#softuni {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.row2 {
+    width: 50%;
+}
+
+.row3 {
+    width: 25%;
+}
+
+.row4 {
+    width: 33%;
+}
+
+.row4in {
+    width: 100%;
+}
+
+.inner-buttons {
+    width: 100%;
+    color: blue;
+}
+
+#inner-table {
+    width: 100%;
+}
+
+.row5 {
+    width: 25%;
+}
+
+#beer-row{
+    width: 75%;
+}
+
+#beer {
+    width: 100%;
+    color: blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    text-align: right;
+}

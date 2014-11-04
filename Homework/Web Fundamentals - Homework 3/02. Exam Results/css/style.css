@@ -1,0 +1,25 @@
+table {
+    border: 1px solid black;
+    font-family: "tahoma", "arial", "helvetica", "sans-serif";
+}
+
+table thead tr th {
+    border: 1px solid black;
+    font-size: 22px;
+    width: 375px;
+}
+
+table tfoot tr td {
+    border: 1px solid black;
+    text-align: right;
+
+}
+
+table tbody tr th {
+    border: 1px solid black;
+}
+
+table tbody tr td {
+    border: 1px solid black;
+}
+

@@ -1,0 +1,171 @@
+.container {
+    background-color: #00953F;
+    width: 1034px;
+    height: 285px;
+}
+
+table {
+    border-spacing: 0;
+    font-family: Arial;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 0.5em 1em;
+}
+
+thead tr:first-child th:first-child {
+    border-radius: 0.6em 0 0 0;
+}
+
+thead tr:first-child th:last-child {
+    border-radius: 0 0.6em 0 0;
+}
+
+tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 0.6em;
+}
+
+tbody tr:last-child td:last-child {
+    border-radius: 0 0 0.6em 0;
+}
+
+table.results-table {
+    position:absolute;
+    top:16px;
+    left:14px;
+}
+
+.results-table {
+    margin: 0 auto;
+}
+
+.table-header {
+    background-color: #FFE214;
+}
+
+th.country1 {
+    width: 147px;
+    height: 35px;
+    text-align: right;
+    font-size: 20px;
+}
+
+th.result {
+    width: 70px;
+    font-size: 20px;
+}
+
+th.country2 {
+    width: 147px;
+    text-align: left;
+    font-size: 20px;
+}
+
+th.group {
+    width: 70px;
+    font-size: 20px;
+}
+
+th.place-a-bet {
+    width: 350px;
+    font-size: 20px;
+}
+
+.table-body {
+
+}
+
+.odd-line {
+    background-color: #FFFFFF;
+}
+
+.even-line {
+    background-color: #CECECE;
+}
+
+.countries-left {
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.countries-right {
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.result-data {
+    text-align: center;
+}
+
+.group-data {
+    text-align: center;
+}
+
+.bet-result {
+    text-align: center;
+}
+
+.select-bet-played {
+    background-color: #E2E2E2;
+    color: #FF1F1A;
+}
+
+.select-bet-not-played {
+    background-color: #FFFFFF;
+    color: #3A914C;
+}
+
+.results-selection {
+    color: #FF2845;
+    font-weight: bold;
+}
+
+.round-button-played {
+    display:block;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #FF0000;
+    box-shadow: 0 0 3px #000000;
+    font-size:7px;
+    font-weight:bold;
+    float: left;
+    margin-right: 1px;
+    margin-left: 4px;
+}
+
+.round-button-played:hover {
+    background: #262626;
+}
+
+.round-button-not-played {
+    display:block;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #008400;
+    box-shadow: 0 0 3px #000000;
+    font-size:7px;
+    font-weight:bold;
+    float: left;
+    margin-right: -5px;
+    margin-left: 4px;
+}
+
+.round-button-not-played:hover {
+    background: #262626;
+}

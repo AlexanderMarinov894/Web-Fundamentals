@@ -1,0 +1,29 @@
+table {
+    width: 350px;
+}
+
+th#title {
+    font-size: 30px;
+    font-family: tahoma;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+#logo {
+    width: 130px;
+}
+
+#text{
+    width: 220px;
+}
+
+#subtitle {
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#article {
+    font-family: tahoma;
+    font-size: 15px;
+}

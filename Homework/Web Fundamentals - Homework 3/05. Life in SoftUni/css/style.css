@@ -1,0 +1,76 @@
+table {
+    border: 1px solid black;
+    font-family: Tahoma;
+}
+
+table tr td {
+    border: 1px solid black;
+}
+
+#softuni {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#google {
+    padding-top: 2px;
+    padding-bottom: 60px;
+}
+
+#github {
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 60px;
+}
+
+#facebook {
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 60px;
+}
+
+#youtube {
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 60px;
+}
+
+#food {
+    text-align: right;
+    padding-bottom: 2px;
+    padding-top: 60px;
+}
+
+#game {
+    padding-bottom: 2px;
+    padding-top: 60px;
+}
+
+#inner-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#social-life {
+    text-align: center;
+    padding: 10px;
+}
+
+#sleep {
+    text-align: center;
+    padding: 10px;
+}
+
+#beer {
+    font-size: 30px;
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#wc {
+    font-size: 20px;
+}

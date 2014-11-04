@@ -1,0 +1,19 @@
+table {
+    border: 1px solid black;
+}
+
+table tr td {
+    border: 1px solid black;
+}
+
+#type-field {
+    width: 159px;
+    text-align: right;
+    clear: both;
+}
+
+.button {
+    width: 37px;
+    height: 37px;
+    text-align: center;
+}
