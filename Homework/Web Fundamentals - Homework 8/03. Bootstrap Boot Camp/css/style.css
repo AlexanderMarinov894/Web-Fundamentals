@@ -1,0 +1,108 @@
+body {
+    width: 100%;
+}
+
+body .container {
+    width: 100%;
+    padding: 0;
+
+}
+
+/*--- Header ---*/
+
+header {
+    background: #A7DBD8;
+}
+
+header .navbar {
+    max-width: 1170px;
+    margin: 0 auto 0 auto;
+    border: none;
+    background-color: #A7DBD8;
+}
+
+.navbar-nav li {
+    margin: 0 2px;
+}
+
+header .navbar-inverse .navbar-nav>.active>a {
+    background: #FA6900;
+}
+
+body .navbar-inverse .navbar-nav>li>a:hover, body .navbar-inverse .navbar-nav>.active>a:hover {
+    background: #FA6900;
+}
+
+header .navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: #000000 !important;
+}
+
+
+/*--- Main-content ---*/
+
+body .row {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+body .container .jumbotron {
+    padding: 0;
+    background: none;
+    margin: 15px 0;
+}
+
+.jumbotron-wrapper {
+    margin: 0 15px;
+    padding: 48px 45px;
+    background: #EEEEEE;
+    border-radius: 5px;
+}
+
+
+/*--- Aside ---*/
+
+.panel {
+    margin: 15px 0;
+    padding: 0 20px !important;
+    border: none !important;
+}
+
+.panel a {
+    color: #000000;
+}
+
+.panel a:hover {
+    text-decoration: none;
+}
+
+main .panel-info>.panel-heading {
+    border: 1px solid #A7DBD8;
+}
+
+.panel-body {
+    border: 1px solid #A7DBD8;
+    border-top: none;
+}
+
+.panel-body:last-of-type {
+    border-radius: 0 0 5px 5px;
+}
+
+.panel-info > .panel-heading {
+    color: #31708f;
+    background-color: #D9F7E8;
+    border-color: #bce8f1;
+}
+
+
+/*--- Footer ---*/
+
+footer p {
+    margin-top: 50px;
+    padding-left: 15px;
+}

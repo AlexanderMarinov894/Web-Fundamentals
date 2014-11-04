@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Kent’s Media Profile</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <main>
+        <div id="container">
+            <h3 id="title">Profile</h3>
+            <section id="left">
+                <figure id="profile-img">
+                    <figcaption id="user">User: Kent</figcaption>
+                    <img src="img/kent.jpg" alt="Kent"/>
+                    <figcaption id="completed">
+                        Profile completed 60%
+                        <meter id="meter" value="6" min="0" max="10">60%</meter>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section id="middle">
+                <span>Uploaded Audio Files</span>
+                <embed class="mp3-big" src="mp3/babie_girl.mp3"/>
+                <audio controls class="mp3-small">
+                    <source src="mp3/babie_girl.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls class="mp3-small">
+                    <source src="mp3/babie_girl.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls class="mp3-small">
+                    <source src="mp3/babie_girl.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+
+            <section id="right">
+                <span>Uploaded Audio Files</span>
+                <video width="345px" height="177px" controls id="video">
+                    <source src="http://www.w3schools.com/HTML/mov_bbb.mp4" type="video/mp4">
+                    <track src="subtitles/subtitles.vtt" kind="subtitles" srclang="en" label="English">
+                    Your browser does not support the audio element.
+                </video>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

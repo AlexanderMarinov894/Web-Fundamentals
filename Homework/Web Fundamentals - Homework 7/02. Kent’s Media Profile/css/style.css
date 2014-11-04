@@ -1,0 +1,79 @@
+html {
+    font-family: "tahoma", "arial", "helvetica", "sans-serif";
+    font-size: 15px;
+}
+
+#container {
+    width: 800px;
+    height: 268px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #FFC6D1;
+}
+
+#left {
+    display: inline-block;
+    float: left;
+    margin-top: -7px;
+    width: 200px;
+    height: 200px;
+}
+
+#middle {
+    display: inline-block;
+    float: left;
+    margin-top: -7px;
+    margin-left: 0;
+    width: 230px;
+    height: 200px;
+}
+
+#right {
+    display: inline-block;
+    float: right;
+    margin-top: -7px;
+    margin-left: 0;
+    width: 344px;
+    height: 200px;
+}
+
+#title {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#profile-img {
+    float: left;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+#user {
+    margin-bottom: 4px;
+}
+
+#completed {
+    margin-top: 3px;
+}
+
+#meter {
+    display: block;
+    width: 146px;
+}
+
+.mp3-big {
+    margin-top: 4px;
+    width: 220px;
+    height: 80px;
+    background-color: #000000;
+}
+
+.mp3-small {
+    width: 220px;
+}
+
+#video {
+    margin-left: -16px;
+    margin-top: 4px;
+}
