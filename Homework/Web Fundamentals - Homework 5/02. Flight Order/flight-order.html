@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">FLIGHT ORDER</h1>
+        <div id="block-left">
+            <form>
+                <label for="cities"><span class="label">From</span>
+                <input list="cities" name="cities" placeholder="enter a city"/>
+                    <datalist id="cities">
+                        <option value="Sofia">
+                        <option value="Madrid">
+                        <option value="London">
+                        <option value="Berlin">
+                        <option value="Athens">
+                        <option value="Moscow">
+                        <option value="Rome">
+                        <option value="Paris">
+                        <option value="Vienna">
+                        <option value="Brussels">
+                        <option value="Amsterdam">
+                    </datalist>
+                </label>
+            </form>
+
+            <form id="date">
+                <label for="startDate"><span class="label">Departure date</span>
+                    <input type="date" id="startDate" name="start-date"/>
+                </label>
+            </form>
+
+            <form>
+                <label for="returnDate"><span class="label">Return date</span>
+                    <input type="date" id="returnDate" name="return-date"/>
+                </label>
+            </form>
+
+            <form id="age">
+                <label for="age1"><span class="label">12+</span>
+                    <input type="number" min="12" id="age1" name="age1"/>
+                </label>
+                <label for="age2"><span class="label">2-12</span>
+                    <input type="number" min="2" max="22" id="age2" name="age2"/>
+                </label>
+                <label for="age3"><span class="label">0-2</span>
+                    <input type="number" min="0" max="2" id="age3" name="age3"/>
+                </label>
+            </form>
+        </div>
+
+        <div id="block-right">
+            <form>
+                <label for="cities-return"><span class="label">To</span>
+                    <input list="cities" name="cities" placeholder="enter a city"/>
+                    <datalist id="cities-return">
+                        <option value="Sofia">
+                        <option value="Madrid">
+                        <option value="London">
+                        <option value="Berlin">
+                        <option value="Athens">
+                        <option value="Moscow">
+                        <option value="Rome">
+                        <option value="Paris">
+                        <option value="Vienna">
+                        <option value="Brussels">
+                        <option value="Amsterdam">
+                    </datalist>
+                </label>
+            </form>
+
+            <form id="box" action="">
+                <label for="check">
+                    <input id="check" type="checkbox"/><span id="check-text">Prefer directs</span>
+                </label>
+            </form>
+
+            <form id="interval1">
+                <label for="interval1-1"><span class="label">Time interval</span>
+                    <input type="time" id="interval1-1" name="interval1-1"/>
+                </label>
+                <label for="interval1-2"><span class="label"></span>
+                    <input type="time" id="interval1-2" name="interval1-2"/>
+                </label>
+            </form>
+
+            <form id="interval2">
+                <label for="interval1-1"><span class="label">Time interval</span>
+                    <input type="time" id="interval2-1" name="interval2-1"/>
+                </label>
+                <label for="interval1-2"><span class="label"></span>
+                    <input type="time" id="interval2-2" name="interval2-2"/>
+                </label>
+            </form>
+
+            <form id="selection">
+                <label for="class"><span class="label">Choose class</span>
+                    <select name="classes" id="class">
+                        <option value="Economic">Economic</option>
+                        <option value="Business">Business</option>
+                        <option value="FirstClass">First class</option>
+                        <option value="SecondClass">Second class</option>
+                    </select>
+                </label>
+            </form>
+
+            <input id="button" type="submit" value="Search"/>
+        </div>
+    </div>
+</body>
+</html>

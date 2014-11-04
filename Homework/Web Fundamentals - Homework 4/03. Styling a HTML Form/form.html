@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div id="container">
+        <label for="step1">Step 1: Your details</label>
+        <form id="step1">
+            <div class="block">
+                <span class="field">Name</span><input class="form" type="text" placeholder="First and last name"/>
+            </div>
+            <div class="block">
+                <span class="field">Email</span><input class="form" type="email" placeholder="example@domain.com"/>
+            </div>
+            <div class="block">
+                <span class="field">Phone</span><input class="form" type="tel" placeholder="eg. +447500000000"/>
+            </div>
+        </form>
+
+        <label for="step2">Step 2: Delivery address</label>
+        <form id="step2">
+            <div class="block">
+                <span class="field">Address</span><textarea id="address"></textarea>
+            </div>
+            <div class="block">
+                <span class="field">Postcode</span><input class="form" type="text"/>
+            </div>
+            <div class="block">
+                <span class="field">Country</span><input class="form" type="text"/>
+            </div>
+        </form>
+
+        <label for="step3">Step 3: Card details</label>
+        <form id="step3">
+            <div class="block">
+                <span class="field">Card type</span>
+                <ul type="none">
+                    <li><input type="radio" name="visa"/><span class="card-name"><img src="img/visa.png" alt="VISA"/> VISA</span></li>
+                    <li><input type="radio" name="amex"/><span class="card-name"><img src="img/amex.png" alt="AMEX"/> AmEx</span></li>
+                    <li><input type="radio" name="mastercard"/><span class="card-name"><img src="img/mastercard.png" alt="MASTERCAD"/> Mastercard</span></li>
+                </ul>
+            </div>
+            <div class="block">
+                <span class="field">Card number</span><input class="form" type="text"/>
+            </div>
+            <div class="block">
+                <span class="field">Security code</span><input class="form" type="text"/>
+            </div>
+            <div class="block">
+                <span class="field">Name on card</span><input class="form" type="tel" placeholder="exact name as on card"/>
+            </div>
+        </form>
+
+        <form id="button">
+            <input type="submit" value="BUY IT!"/>
+        </form>
+    </div>
+</body>
+</html>

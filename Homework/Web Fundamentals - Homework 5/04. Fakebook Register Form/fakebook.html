@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fakebook Register</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div id="container">
+        <h1>fakebook<span id="registered">®</span></h1>
+        <h2>Registration</h2>
+        <h4>It is safe and it will always be!</h4>
+
+        <div id="left-block">
+            <form id="non-imp-info" method="post" action="register.php">
+                <fieldset>
+                    <legend>None-Important information</legend>
+                    <input type="text" placeholder="First Name"/>
+                    <input type="text" placeholder="Last Name"/>
+                    <input type="email" placeholder="Your Email"/>
+                    <input type="text" placeholder="Phone Number"/>
+                    <input type="password" placeholder="Your Password"/>
+                    <input type="text" placeholder="Website"/>
+                    <label for="birthday"><span class="label">Birthday</span>
+                        <input type="date" name="birthday" id="birthday"/>
+                    </label>
+                    <input type="radio" class="sex" name="sex" value="female"><span class="sex-label">Female</span>
+                    <input type="radio" class="sex" name="sex" value="male"><span class="sex-label">Male</span>
+                    <input type="radio" class="sex" name="sex" value="Other"><span class="sex-label">Other</span>
+                </fieldset>
+                <input id="button-left" type="reset" value="Clear Form"/>
+            </form>
+        </div>
+
+        <div id="right-block">
+            <form id="imp-info" method="post" action="register.php">
+                <fieldset>
+                    <legend>Important information *required</legend>
+                    <select name="country" id="country">
+                        <option id="default" value="" disabled selected>Country</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="Bulgaria">USA</option>
+                        <option value="Bulgaria">Germany</option>
+                        <option value="Bulgaria">Spain</option>
+                        <option value="Bulgaria">Other</option>
+                    </select>
+                    <input type="text" placeholder="Village"/>
+                    <input type="text" placeholder="District"/>
+                    <input type="text" placeholder="Street"/>
+                    <input class="short-input" type="text" placeholder="Nr"/>
+                    <input class="short-input" type="text" placeholder="Floor"/>
+                    <input class="short-input" type="text" placeholder="Ap Nr"/>
+                    <label for="color"><span class="label">Door color</span>
+                        <input type="color" name="color" id="color"/>
+                    </label>
+                    <input type="text" placeholder="Water Meter Nr"/>
+                    <select name="country" id="pants">
+                        <option class="default" value="" disabled selected>Aunt Panties Size</option>
+                        <option value="Bulgaria">XXL</option>
+                        <option value="Bulgaria">XXXL</option>
+                        <option value="Bulgaria">XXXXL</option>
+                        <option value="Bulgaria">XXXXXXXXL</option>
+                        <option value="Bulgaria">Not a Number</option>
+                    </select>
+                    <label for="textarea"><span class="label">More Personal Information</span>
+                        <textarea name="textarea" id="textarea" placeholder="Give Us More Information!!!"></textarea>
+                    </label>
+                </fieldset>
+                <input id="button-right" type="submit" value="Register"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

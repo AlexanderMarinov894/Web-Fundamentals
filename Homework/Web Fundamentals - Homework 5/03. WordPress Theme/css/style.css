@@ -1,0 +1,38 @@
+html {
+    font-family: "tahoma", "arial", "helvetica", "sans-serif";
+    background-color: #55A1BB;
+    position: relative;
+}
+
+#container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text {
+    vertical-align: middle;
+}
+
+#upload {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#submit {
+    display: inline-block;
+    background: url('../img/button.png') no-repeat;
+    width: 32px;
+    height: 32px;
+    border: none;
+    vertical-align: middle;
+}

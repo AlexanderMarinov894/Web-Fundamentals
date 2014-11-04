@@ -1,0 +1,101 @@
+html {
+    font-family: "tahoma", "arial", "helvetica", "sans-serif";
+    background-color: dodgerblue;
+}
+
+#container {
+    position: relative;
+    width: 560px;
+    height: 323px;
+    margin: auto;
+    background-color: #FFC6CF;
+}
+
+#title {
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#block-left {
+    display: inline-block;
+    width: 270px;
+    height: 200px;
+    margin-left: 8px;
+}
+
+#block-right {
+    position: absolute;
+    top: 81px;
+    right: 8px;
+    display: inline-block;
+    width: 270px;
+    height: 240px;
+    margin-left: -5px;
+}
+
+input {
+    padding-left: 2px;
+    width: 250px;
+}
+
+.label {
+    padding-left: 2px;
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+}
+
+form#date label {
+    display: block;
+    margin-top: 30px;
+}
+
+form#age label {
+    display: inline-block;
+}
+
+#age1, #age2, #age3 {
+    width: 76px;
+}
+
+#check-text {
+    display: block;
+    position: absolute;
+    top: 44px;
+    right: 177px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+#check {
+    position: absolute;
+    top: 42px;
+    right: 130px;
+}
+
+form#interval1 label, form#interval2 label {
+    display: inline-block;
+}
+
+#interval1 {
+    margin-top: 30px;
+}
+
+form#interval1 label input, form#interval2 label input {
+    width: 119px;
+}
+
+form#interval1 label:nth-child(2) input, form#interval2 label:nth-child(2) input {
+   margin-left: 1px;
+}
+
+form#selection label select {
+    width: 256px;
+}
+
+#button {
+    width: 256px;
+    height: 30px;
+    margin-top: 5px;
+}

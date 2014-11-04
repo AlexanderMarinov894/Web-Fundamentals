@@ -1,0 +1,113 @@
+html {
+    font-family: "tahoma", "arial", "helvetica", "sans-serif";
+}
+
+a {
+    text-decoration: none;
+}
+
+section#left-section {
+    width: 210px;
+    height: 320px;
+}
+
+section#about {
+     position: absolute;
+     top: 0;
+     left: 241px;
+     width: 200px;
+     height: 320px;
+}
+
+section#friends {
+    position: absolute;
+    top: 0;
+    left: 513px;
+    width: 120px;
+    height: 320px;
+}
+
+section#system {
+     position: absolute;
+     top: 0;
+     left: 705px;
+     width: 290px;
+     height: 320px;
+}
+
+section#facebook {
+    position: absolute;
+    top: 41px;
+    left: 1027px;
+    width: 254px;
+    height: 211px;
+    background-color: #E9ECEF;
+}
+
+#container {
+    position: relative;
+    width: 1350px;
+    height: 327px;
+    background-color: #234465;
+}
+
+.button {
+    width: 157px;
+    height: 30px;
+    padding-top: 10px;
+    border: 2px solid #FF9C00;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #FF9C00;
+}
+
+.left-buttons:nth-child(1) {
+    position: absolute;
+    top: 61px;
+    left: 50px;
+}
+
+.left-buttons:nth-child(2) {
+    position: absolute;
+    top: 116px;
+    left: 50px;
+}
+
+ul {
+    margin-left: -40px;
+    margin-top: 56px;
+    color: #FF9C00;
+    font-weight: bold;
+}
+
+ul li {
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+ul li:nth-child(1) {
+    margin-top: 20px;
+}
+
+li a:link, li a:visited {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #FF9C00;
+}
+
+span {
+    font-size: 15px;
+}
+
+#copy-right {
+    color: #ffffff;
+}

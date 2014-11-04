@@ -1,0 +1,225 @@
+html {
+    font-family: "tahoma", "arial", "helvetica", "sans-serif";
+}
+
+#container {
+    position: relative;
+    width: 1350px;
+    height: 106px;
+    border: 1px solid black;
+    background-color: #234465;
+    margin: auto;
+}
+
+#logo {
+    margin-top: 20px;
+    margin-left: 93px;
+}
+
+#beta {
+    position: absolute;
+    top: 25px;
+    left: 322px;
+    color: #ffffff;
+    font-size: 11px;
+}
+
+span#notifications {
+    position: absolute;
+    top: 26px;
+    right: 480px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+img#notifications-icon {
+    position: absolute;
+    top: 26px;
+    right: 460px;
+}
+
+span#user {
+    position: absolute;
+    top: 26px;
+    right: 395px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.arrow {
+    position: absolute;
+    top: 9px;
+    right: 1px;
+    color: #ffffff;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+ul#account {
+    position: absolute;
+    top: 8px;
+    right: 380px;
+}
+
+ul#account ul {
+    display: none;
+    position: relative;
+    top: 20px;
+    right: -290px;
+    width: 306px;
+    background-color: #234465;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    z-index: 3;
+}
+
+ul#account  ul li {
+    height: 36px;
+    border-bottom: 1px solid rgba(69, 151, 217, 0.27);
+    margin-left: -40px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+ul#account-drop li:hover {
+    background-color: #FF9C00;
+}
+
+#first-choice:hover {
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+#last-choice:hover {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ul#account-drop li#first-choice:hover a#panel {
+    color: #ffffff !important;
+}
+
+ul#account  ul li a:link, ul#account  ul li a:visited, ul#account  ul li a:active {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: 1px 1px #000000;
+}
+
+#panel {
+    color: #0094c7 !important;
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: 1px 1px #000000;
+}
+
+ul#account li:hover > ul {
+    display: block;
+}
+
+#search {
+    position: absolute;
+    top: 19px;
+    right: 105px;
+    width: 249px;
+    height: 31px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+#search-icon {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 19px;
+    right: 105px;
+    background: url('../img/search.png') center no-repeat;
+    border: none;
+    border-left: 1px solid rgba(0, 0, 0, 0.29);
+}
+
+#search-icon:hover {
+    background-color: #367CAE;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+input#search {
+    padding-left: 10px;
+}
+
+ul#menu {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    top: 45px;
+    left: 368px;
+    list-style: none;
+    display: inline-table;
+}
+
+ul#menu ul {
+    display: none;
+}
+
+ul#menu li:hover > ul {
+    display: block;
+}
+
+ul#menu li {
+    float: left;
+}
+
+ul#menu li:hover {
+    background-color: #4CA0DB;
+    border-radius: 5px;
+}
+
+ul#menu li:hover a {
+    color: #fff;
+}
+
+ul#menu li li:hover {
+    background-color: #FF9C00;
+    border-radius: 0;
+}
+
+ul#menu li a {
+    display: block;
+    padding: 7px 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul#menu ul {
+    background-color: #234465;
+    width: 310px;
+    border-radius: 0;
+    border: 1px solid #000000;
+    text-shadow: 1px 1px #000000;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+}
+ul#menu ul li {
+    float: none;
+    border-bottom: 1px solid rgba(69, 151, 217, 0.27);
+    position: relative;
+}
+
+ul#menu li a .arrow {
+    position: relative;
+    vertical-align: top;
+    margin-left: 5px;
+}

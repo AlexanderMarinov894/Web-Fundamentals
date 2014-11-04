@@ -1,0 +1,175 @@
+@font-face {
+    font-family: Klavika;
+    src: url(../fonts/KlavikaBoldBold.otf);
+}
+
+html {
+    background-color: #dda0dd;
+    font-family: "tahoma", "arial", "helvetica", "sans-serif";
+}
+
+#container {
+    position: relative;
+    width: 980px;
+    height: 550px;
+    border: 1px solid transparent;
+    margin: auto;
+    background-color: #3C5F9C;
+}
+
+#left-block {
+    width: 390px;
+    height: 340px;
+}
+
+#right-block {
+    position: absolute;
+    top: 200px;
+    right: 1px;
+    width: 580px;
+    height: 340px;
+}
+
+h1 {
+    font-family: Klavika;
+    text-align: center;
+    font-size: 90px;
+    margin-top: -8px;
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: -30px;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+}
+
+#registered {
+    font-size: 40px;
+    vertical-align: bottom;
+}
+
+#non-imp-info {
+    color: #ffffff;
+    font-weight: bold;
+    width: 379px;
+    margin-left: 5px;
+}
+
+#imp-info {
+    color: #ffffff;
+    font-weight: bold;
+    width: 555px;
+    margin-left: 5px;
+}
+
+form#non-imp-info fieldset legend, form#imp-info fieldset legend {
+    text-align: center;
+}
+
+input {
+    display: inline;
+    width: 166px;
+    height: 25px;
+    padding-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+input.short-input {
+    width: 90px;
+}
+
+select#country, select#pants {
+    display: inline;
+    width: 171px;
+    height: 25px;
+    padding-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.default {
+    display: none;
+}
+
+input#birthday {
+    width: 240px;
+}
+
+fieldset {
+    border-radius: 10px;
+    height: 230px;
+}
+
+#birthday {
+    display: block;
+}
+
+#color {
+    display: inline-block;
+    width: 164px;
+    vertical-align: -25%;
+}
+
+.label {
+    font-size: 12px;
+}
+
+.sex {
+    width: 12px;
+}
+
+.sex-label {
+    font-size: 12px;
+    vertical-align: 65%;
+    margin-right: 35px;
+}
+
+#button-left {
+    width: 374px;
+    height: 50px;
+    margin-left: 3px;
+    margin-top: 15px;
+    color: #3C5F9C;
+    font-weight: bold;
+}
+
+#button-left:hover {
+    cursor: pointer;
+}
+
+#button-right {
+    width: 550px;
+    height: 50px;
+    margin-left: 3px;
+    margin-top: 15px;
+    color: #3C5F9C;
+    font-weight: bold;
+}
+
+#button-right:hover {
+    cursor: pointer;
+}
+
+
+form#imp-info fieldset label span.label {
+    display: block;
+    margin-top: 7px;
+}
+
+textarea {
+    width: 516px;
+    height: 60px;
+    margin-top: 5px;
+    border-radius: 5px;
+    resize: none;
+}

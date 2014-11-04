@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div id="container">
+        <h2 id="header">Enter the system</h2>
+        <span>It is necessary to login in Your account in order to sign for a course.</span>
+        <div id="register">
+            <h4 id="new">ARE YOU NEW? <a href="https://softuni.bg/account/authenticate" title="Register">REGISTER</a></h4>
+            <form method="get" action="https://softuni.bg/account/authenticate">
+                <input class="forms" type="text" placeholder="User name"/>
+                <input class="forms" type="email" placeholder="Email"/>
+                <input class="forms" type="password" placeholder="Password"/>
+                <input class="forms" type="password" placeholder="Confirm Password"/>
+                <input id="button" type="submit" value="Register"/>
+            </form>
+        </div>
+
+        <div id="login">
+            <h4 id="registered">ALREADY A STUDENT? LOGIN</h4>
+            <form method="get" action="https://softuni.bg/account/authenticate">
+                <input class="forms" type="text" placeholder="User name"/>
+                <input class="forms" type="password" placeholder="Password"/>
+                <label for="rememberme"><input id="rememberme" type="checkbox"/>Remember me?</label>
+                <input id="login-button" type="submit" value="Login"/>
+            </form>
+            <div id="pass-forgot"><a href="https://softuni.bg/account/forgottenpassword" title="Forgotten password">Forgot Password</a></div>
+        </div>
+    </div>
+</body>
+</html>

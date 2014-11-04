@@ -1,0 +1,157 @@
+html {
+    font-family: "tahoma", "arial", "helvetica", "sans-serif";
+    background-color: #447a7a;
+}
+
+#text-box {
+    margin: auto;
+    border-top: 5px dotted #FFFF00;
+    border-left: 5px dashed #FF0000;
+    border-right: 10px solid #008400;
+    border-bottom: 6px double #0000FF;
+    width: 494px;
+    height: 192px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.40);
+    -moz-box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.40);
+    position: relative;
+}
+
+#shadows {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.40);
+}
+
+#border1 {
+    border: 2px solid #0000FF;
+    width: 442px;
+    height: 92px;
+    margin:auto;
+    margin-bottom: 20px;
+    border-radius: 60px;
+}
+
+#border2 {
+    border: 2px solid #118722;
+    width: 438px;
+    height: 88px;
+    margin:auto;
+    margin-bottom: 20px;
+    border-radius: 60px;
+}
+
+#border3 {
+    border: 2px solid #FFFF02;
+    width: 434px;
+    height: 84px;
+    margin:auto;
+    margin-bottom: 20px;
+    border-radius: 60px;
+}
+
+#border4 {
+    border: 2px solid #FF0007;
+    width: 430px;
+    height: 80px;
+    margin:auto;
+    margin-bottom: 20px;
+    border-radius: 60px;
+    text-align: center;
+}
+
+#text {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.button{
+    display: inline-block;
+    border-style: solid;
+    border-color: #FFAE00 #A66300 #AE6900 #FFA800;
+    border-width: 3px 4px 4px 3px;
+    width: 147px;
+    height: 17px;
+    background: #DE951A;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button-text {
+    font-size: 14px;
+    vertical-align: top;
+}
+
+#stamp1-out {
+    position: absolute;
+    top: 22px;
+    right: -76px;
+    height: 64px;
+    width:  110px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.59);
+    border-radius: 50px;
+ }
+
+#stamp1-in {
+    height: 54px;
+    width:  100px;
+    margin-left: 3px;
+    margin-top: 3px;
+    border: 2px dashed #ffffff;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+#stamp2-out {
+    position: absolute;
+    top: 85px;
+    right: 40px;
+    height: 34px;
+    width:  34px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.59);
+    border-radius: 50px;
+}
+
+#stamp2-in {
+    height: 22px;
+    width:  22px;
+    margin-left: 4px;
+    margin-top: 4px;
+    border: 2px dashed #ffffff;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#stamp3-out {
+    position: absolute;
+    top: 127px;
+    right: 91px;
+    height: 24px;
+    width:  24px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.59);
+    border-radius: 50px;
+}
+
+#stamp3-in {
+    height: 12px;
+    width:  12px;
+    margin-left: 4px;
+    margin-top: 4px;
+    border: 2px dashed #ffffff;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cool-text {
+    display: inline-block;
+    margin-top: 6px;
+}

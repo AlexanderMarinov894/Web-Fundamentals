@@ -1,0 +1,96 @@
+html {
+    background-color: royalblue;
+}
+
+@font-face {
+    font-family: Animated;
+    src: url('../fonts/Animated.ttf');
+}
+
+#container {
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    border: 1px solid #000000;
+}
+
+#beach {
+    position: relative;
+    background: url('../img/HawaiiBackground.png') no-repeat;
+    height: 600px;
+    width: 900px;
+    z-index: 3;
+}
+
+#sky {
+    position: relative;
+    height: 329px;
+    width: 900px;
+    background: -webkit-linear-gradient(to right, #9DC8EF , #2994E2, #006ADE);
+    background: -o-linear-gradient(to right, #9DC8EF , #2994E2, #006ADE);
+    background: -moz-linear-gradient(to right, #9DC8EF , #2994E2, #006ADE);
+    background: linear-gradient(to right, #9DC8EF , #2994E2, #006ADE);
+}
+
+#sun {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 329px;
+    width: 450px;
+    background: radial-gradient(#ffffff, #FFFFB3, #2B95E2 70%); /* Standard syntax */
+    z-index: 2;
+
+}
+
+#hula1 {
+    position: absolute;
+    top: 230px;
+    left: 40px;
+    z-index: 4;
+}
+
+#hula2 {
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    z-index: 4;
+}
+
+#hula3 {
+    position: absolute;
+    top: 370px;
+    left: 250px;
+    z-index: 4;
+}
+
+#hula4{
+    position: absolute;
+    top: 165px;
+    left: 400px;
+    z-index: 4;
+}
+
+#hula5 {
+    position: absolute;
+    top: 210px;
+    left: 481px;
+    z-index: 4;
+}
+
+#hula6 {
+    position: absolute;
+    top: 240px;
+    left: 662px;
+    z-index: 4;
+}
+
+#text {
+    font-family: Animated;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    z-index: 4;
+    color: #FFC11E;
+    font-size: 51px;
+}
